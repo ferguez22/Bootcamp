@@ -4,8 +4,8 @@
 // Valores asociados a una clave concreta
 //
 
-const producto = {
-    nombre: 'iPhone 15 Pro Max',
+const producto = { // PRODUCTO Es el array
+    nombre: 'iPhone 15 Pro Max', //Nombre es igual a CLAVE de un array y su contenido son los VALORES pueden ser string, boolano o numero
     precio: 1289.99,
     stock: 100,
     disponible: true
