@@ -15,7 +15,7 @@ function pintarInmueble(inmueble) {
         <p>${inmueble.disponible}</p>
     </div>`}
 
-// document.write(pintarInmueble(inmuebles[1]))
+// document.write(pintarInmueble(inmuebles[0]))
 
 /*
     Función para pintar todos los inmuebles.
@@ -34,7 +34,7 @@ function pintarInmuebles(lista) {
     return resultado
 }
 
-document.write(pintarInmuebles(inmuebles))
+// document.write(pintarInmuebles(inmuebles))
 
 
 /*
@@ -50,9 +50,29 @@ document.write(pintarInmuebles(filtrarPorPrecio))
 
 */
 
+function filtrarPorPrecio(lista, precioMax, precioMin) {
+    const filtrado = []
+    for (let inmueble of lista) {
+        if (inmueble.precio >= precioMin && inmueble.precio <= precioMax) {
+            filtrado.push(inmueble)
+        }
+    }
+    return filtrado
+}
+
+const filtroPorPrecio = filtrarPorPrecio(inmuebles, 100, 100)
+// document.write(pintarInmuebles(filtroPorPrecio))
+
+
 /*
     Funcion que filtre por disponibilidad
     - Recibe por parametros una lista de inmuebles
     - Retorna aquellos que estén disponibles
 */
 
+function filtroDisponible(lista) {
+    return lista.filter(inmueble => inmueble.disponible)
+}
+
+const disponibles = filtroDisponible(inmuebles)
+// document.write(pintarInmuebles(disponibles))

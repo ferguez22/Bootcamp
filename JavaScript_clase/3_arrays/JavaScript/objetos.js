@@ -1,16 +1,14 @@
-//
-// Objetos - JSON - Array asociativo
-//
-// Valores asociados a una clave concreta
-//
+
+/// OBJETOS \\\
 
 const producto = { // PRODUCTO Es el array
-    nombre: 'iPhone 15 Pro Max', //Nombre es igual a CLAVE de un array y su contenido son los VALORES pueden ser string, boolano o numero
+    nombre: 'iPhone 15 Pro Max',
     precio: 1289.99,
     stock: 100,
     disponible: true
 }
-
+// Nombre es igual a CLAVE de un array y su
+// contenido son los VALORES pueden ser string, boolano o numero
 console.log(producto)
 
 
@@ -32,4 +30,8 @@ for (let clave in producto) {
 
 }
 
-// 
+
+
+
+
+

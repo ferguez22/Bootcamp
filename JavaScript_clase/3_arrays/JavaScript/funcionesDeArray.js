@@ -43,7 +43,7 @@ const texto = 'Lorem ipsum dolor sit amet consectetur adipisicing elit.'
 const palabras = texto.split(' ')
 console.log(palabras);
 
-// SPLICE
+// SPLICE = Borrar un item de un array
 
 console.log(animales);
 

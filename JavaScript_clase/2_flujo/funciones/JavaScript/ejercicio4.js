@@ -1,9 +1,8 @@
-//
+
 // Pintar un tablero de ajedrez
 //  - Pintar una única casilla √
 //  - Pintar una fila entera √
 //  - Pintar todo el tablero
-//
 
 function pintarCasilla(color, medida) {
     return `<div style="background-color: ${color}; width:${medida}px; height:${medida}px;" ></div ><br>`
@@ -42,5 +41,3 @@ function pintarTablero(numCasillas, medida) {
     document.write(tablero)
 }
 pintarTablero(7, 70)
-
-// TODO: Usar prompt para pedir al usuario el ancho/alto y los colores

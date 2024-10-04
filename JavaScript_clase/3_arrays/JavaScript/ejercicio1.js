@@ -18,18 +18,18 @@
 // Bucle para llenar al array x veces
 // Creo el array vacio
 
-// function llenarArray(x) {
-//     let numeros = []
-//     for (let i = 0; i < x; i++) {
-//         numeros.push(Math.ceil(Math.random() * 100))
-//     }
-//     return numeros
-// }
-// console.log(llenarArray(Number(prompt('Dime un número'))));
+function llenarArray(x) {
+    let numeros = []
+    for (let i = 0; i < x; i++) {
+        numeros.push(Math.ceil(Math.random() * 100))
+    }
+    return numeros
+}
+console.log(llenarArray(Number(prompt('Dime un número'))));
 
 // Los numeros random se generan asi
-// const numAleatorio = Math.ceil(Math.random() * 100)
-// console.log(numAleatorio);
+const numAleatorio = Math.ceil(Math.random() * 100)
+console.log(numAleatorio);
 
 
 // SOLUCIÓN de MARIO

@@ -29,13 +29,13 @@ const listaEstudiantes = [
 ];
 
 // Visualizar la edad de Inés
-// console.log(listaEstudiantes[2].nombre);
-// console.log(listaEstudiantes[2].edad);
+console.log(listaEstudiantes[2].nombre);
+console.log(listaEstudiantes[2].edad);
 
 // Visualizar la edad de todos los estudiantes
-// for (let estudiante of listaEstudiantes) {
-//     console.log(`El estudiante ${estudiante.nombre} tiene ${estudiante.edad}`);
-// }
+for (let estudiante of listaEstudiantes) {
+    console.log(`El estudiante ${estudiante.nombre} tiene ${estudiante.edad}`);
+}
 
 // Una función que filtre los estudiantes por Aprobados
 
